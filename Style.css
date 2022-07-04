@@ -1,0 +1,44 @@
+#title {
+    background-image: linear-gradient(to right, rgb(230, 132, 230),rgb(175, 184, 134));
+}
+#ready {
+    background-image: linear-gradient(to right, rgb(230, 132, 230),rgb(175, 184, 134));
+}
+
+#CrapsParagraph {
+    background-color: beige;
+    background-image: linear-gradient(to right,rgb(224, 135, 224),rgb(190, 190, 138));
+}
+
+#button {
+    background-color: rgb(25, 209, 209);
+    border: 1pxl solid aliceblue;
+}
+
+#die1Rolling {
+    background-image: linear-gradient(to right, rgb(26, 153, 226), rgb(211, 238, 90));
+}
+#die2Rolling {
+    background-image: linear-gradient(to right, rgb(26, 153, 226), rgb(211, 238, 90));
+}
+#sumOfDice {
+    background-image: linear-gradient(to right, rgb(26, 153, 226), rgb(211, 238, 90));
+}
+#crapsStatus {
+    background-image: linear-gradient(to right, rgb(26, 226, 126), rgb(211, 238, 90));
+    font-size: 30px;
+}
+
+#countdownStatus{
+    background-color: rgb(216, 150, 150);
+}
+
+/*instead if 'id' we used a class="button" on our button. So when we style in CSS we will
+have to use a 'dot' to refer to that class.*/
+.button{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(102, 204, 170);
+    border-radius: 15px;
+    border-color: rgb(157, 132, 224);
+}
